@@ -1,0 +1,84 @@
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    word-spacing: 3px;
+}
+
+blockquote{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    word-spacing: 3px;
+}
+
+a:hover{
+    background-color: yellowgreen;
+}
+
+a:visited{
+    color: rgba(242, 79, 9, 0);
+}
+
+body{
+    width: 90%;
+    margin: 10%;
+    background-color: rgb(20, 243, 243);
+    background-image: url(image\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+}
+q{
+    margin: 30px;
+    font-size: 160%;
+    background-color: lightgrey;
+    border-style: solid ;
+    border-width: 15px;
+    border-left-color: firebrick ; 
+    border-radius: 15px 50px;
+    display: block;
+    padding: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: center;
+    font-style: italic;
+
+}
+  #q2, #q4, #q6, #q8{
+    
+    border-left-color: blue;
+}
+ #q1, #q3, #q5, #q7{
+    border-left-color:  rgb(232, 189, 18);
+}
+
+header #date{
+    background-color: yellow;
+}
+
+q [attribute="good"]{
+    text-transform: capitalize;
+    color: green;
+}
+q [attribute = "bad"]{
+    text-transform: capitalize;
+    color: red;
+}
+.table{
+    width: 150%; 
+}
+#row2, #row4{
+    background-color: white;
+}
+#row1, #row3, #row5{
+    background-color: gray;
+}
+
+
+#goodp{
+    background-image:url(https://raw.githubusercontent.com/becodeorg/BXL-Johnson-09/main/1.The-Field/03-Front-end-101/bien.png?token=GHSAT0AAAAAABY7OC7IMY4IVEYLHXFELYWOYZUVUDQ) ;
+    background-repeat: no-repeat;
+    background-position: center ;
+    padding-right: 10%;
+}
+
+
